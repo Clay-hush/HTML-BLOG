@@ -1,0 +1,141 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Vida Saudavel</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog Vida Saudável</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+    </header>
+
+    <main id="artigos">
+
+        <article>
+            <h2>Alimentacao Saudavel</h2>
+
+            <p>
+                Uma alimentacao equilibrada contribui para uma melhor qualidade
+                de vida. Consumir frutas, verduras, legumes e alimentos naturais
+                pode ajudar a manter uma rotina mais saudavel.
+            </p>
+
+            <img
+                src="https://media.istockphoto.com/id/1457433817/pt/foto/group-of-healthy-food-for-flexitarian-diet.jpg?s=612x612&w=0&k=20&c=gtYkwgspeAjAIUoSIPOeci2o02IrWwPLJY0Ql5jhiKQ="
+                alt="Imagem Ilustrativa"
+                width="400">
+        </article>
+
+        <article>
+            <h2>A importância da atividade física</h2>
+
+            <p>
+                A prática regular de atividades físicas pode trazer diversos
+                benefícios para o corpo e para a mente. Caminhadas, corridas,
+                musculação e outros exercícios podem fazer parte de uma rotina
+                equilibrada.
+            </p>
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXRjtjQGb6T4gZQhVTow_l_bp93Mj-vLMhclGx3zLXfu1J1MSD-DgLS5Y&s=10"
+                alt="Pessoa realizando exercício físico em uma academia"
+                width="400">
+        </article>
+
+    </main>
+
+    <aside id="inscricao">
+
+        <h2>Inscreva-se no nosso blog</h2>
+
+        <form method="get">
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        minlength="3"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+                </p>
+
+                <p>
+                    <label for="idade">Idade:</label><br>
+                    <input
+                        type="number"
+                        id="idade"
+                        name="idade"
+                        min="18"
+                        max="120"
+                        required>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+
+                <p>
+                    <label for="assunto">Assunto de interesse:</label><br>
+
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="alimentacao">Alimentação saudável</option>
+                        <option value="atividade-fisica">Atividade física</option>
+                        <option value="qualidade-de-vida">Qualidade de vida</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="termos"
+                        name="termos"
+                        value="aceito"
+                        required>
+
+                    <label for="termos">
+                        Aceito os termos de inscrição
+                    </label>
+                </p>
+
+            </fieldset>
+
+            <button type="submit">Enviar inscrição</button>
+
+        </form>
+
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Blog Vida Saudável - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
+```
